@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.lvps.service.impl.LastValuePriceServiceCancelTest" time="0.123" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\80545\Downloads\last-value-price-service\target\test-classes;C:\Users\80545\Downloads\last-value-price-service\target\classes;C:\Users\80545\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\80545\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\80545\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\80545\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\80545\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\80545\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\80545\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\80545\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\80545\AppData\Local\Temp\surefire4773657639696636842\surefirebooter-20251026231320568_3.jar C:\Users\80545\AppData\Local\Temp\surefire4773657639696636842 2025-10-26T23-13-20_444-jvmRun1 surefire-20251026231320568_1tmp surefire_0-20251026231320568_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\80545\Downloads\last-value-price-service\target\test-classes;C:\Users\80545\Downloads\last-value-price-service\target\classes;C:\Users\80545\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\80545\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\80545\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\80545\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\80545\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\80545\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\80545\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\80545\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\80545"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\80545\Downloads\last-value-price-service"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\80545\AppData\Local\Temp\surefire4773657639696636842\surefirebooter-20251026231320568_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="80545"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Users\80545\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\80545\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\80545\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2025.2.4"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\80545\Downloads\last-value-price-service"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\17\bin;C:\Users\80545\AppData\Local\Microsoft\WindowsApps;C:\Users\80545\AppData\Roaming\npm;C:\Users\80545\AppData\Local\Programs\Git\cmd;;C:\Users\80545\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;C:\Users\80545\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\80545\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\80545\.m2\repository"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="cancelBatch_discardStagedData" classname="org.lvps.service.impl.LastValuePriceServiceCancelTest" time="0.096">
+    <system-err><![CDATA[[main] INFO org.lvps.service.impl.LastValuePricePriceServiceImpl - [Producer] Started batch 61aa3e22-309e-4eed-9278-0ca9f1fc0b0f
+[main] INFO org.lvps.service.impl.LastValuePricePriceServiceImpl - [Producer] Uploaded chunk (size=1) for batch 61aa3e22-309e-4eed-9278-0ca9f1fc0b0f
+[main] INFO org.lvps.service.impl.LastValuePricePriceServiceImpl - [Producer] Success: Cancelled batch 61aa3e22-309e-4eed-9278-0ca9f1fc0b0f
+[main] WARN org.lvps.service.impl.LastValuePricePriceServiceImpl - [System] Warning: Attempted to complete a cancelled batch 61aa3e22-309e-4eed-9278-0ca9f1fc0b0f - ignoring (staged data discarded)
+]]></system-err>
+  </testcase>
+</testsuite>
